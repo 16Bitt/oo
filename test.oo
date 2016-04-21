@@ -1,0 +1,18 @@
+class Integer{
+	var IntegerValue value;
+}
+
+class Test{
+	var Integer x;
+	
+	fn None test(){
+		this.x = 1;
+	}
+}
+
+class Program{
+	fn None main(){
+		var Test t;
+		t.x = 1;
+	}
+}
